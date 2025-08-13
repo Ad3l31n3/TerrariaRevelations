@@ -3,10 +3,11 @@
 	<!-- Import tModLoader mod properties -->
 	<Import Project="..\tModLoader.targets" />
 
-	<!-- General -->
-	<PropertyGroup>
-		
-	</PropertyGroup>
+	    <!-- General -->
+    <PropertyGroup>
+        <AssemblyName>Revelations</AssemblyName>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
 
 	<!-- References -->
 	<ItemGroup>
@@ -14,6 +15,7 @@
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
+
 
 
 </Project>
