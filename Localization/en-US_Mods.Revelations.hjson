@@ -1,0 +1,130 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	GelatinousSword: {
+		DisplayName: Gelatinous Sword
+		Tooltip: Shoots slime spikes
+	}
+
+	DragonSkullBanner: {
+		DisplayName: Dragon Skull Banner
+		Tooltip: Nearby players get a bonus against Dragon Skulls
+	}
+
+	DragonsWrath: {
+		Tooltip: Shoots a Dragon Shot every 5 swings
+		DisplayName: Dragons Wrath
+	}
+
+	EternalEnchantment: {
+		DisplayName: Eternal Enchantment
+		Tooltip:
+			'''
+			4 defense
+			A combination of Terraspark Boots,
+			Ankh Shield, Master Ninja Gear,
+			Arctic Diving Gear, and Magiluminescence
+			'''
+	}
+
+	PalladiumShield: {
+		DisplayName: Palladium Shield
+		Tooltip: Grants immunity to knockback
+	}
+
+	DauntlessBoots: {
+		DisplayName: Dauntless Boots
+		Tooltip:
+			'''
+			4 defense
+			A combination of Terraspark Boots,
+			and Obsidian Shield
+			'''
+	}
+
+	EternalBoots: {
+		DisplayName: Eternal Boots
+		Tooltip:
+			'''
+			4 defense
+			A combination of Terraspark Boots,
+			Ankh Shield, and Magiluminescence
+			'''
+	}
+
+	InsolatedGloves: {
+		DisplayName: Insulated Gloves
+		Tooltip: Grants immunity to chilling, freezing, and electrifying effects
+	}
+
+	RubberGloves: {
+		DisplayName: Rubber Gloves
+		Tooltip: Grants immunity to electrifying effects
+	}
+
+	DeliveryBox: {
+		DisplayName: Delivery Box
+		Tooltip: Summons a Delivery Nekomata
+	}
+
+	CryosplashNinjaGear: {
+		DisplayName: Cryosplash Ninja Gear
+		Tooltip: A combination of Master Ninja Gear and Arctic Diving Gear
+	}
+
+	ArchDemonScythe: {
+		DisplayName: Arch Demon Scythe
+		Tooltip: Casts a homing Demon Scythe
+	}
+
+	RoseBand: {
+		DisplayName: Rose Band
+		Tooltip:
+			'''
+			Makes your HP unable to go above 50%
+			Boosts your Mana and Mana Regeneration by 1.5x
+			Boosts Magic damage by 50%
+			'''
+	}
+
+	ArchDemonBanner: {
+		DisplayName: Arch Demon Banner
+		Tooltip: Nearby players get a bonus against Arch Demons
+	}
+
+	ElectricEelBanner: {
+		DisplayName: Electric Eel Banner
+		Tooltip: Nearby players get a bonus against Electric Eels
+	}
+
+	AdesDebugAccessory: {
+		DisplayName: Ade's Debug Accessory
+		Tooltip: I made this item so I thought it'd be funny to keep it in
+	}
+}
+
+Buffs: {
+	KiraraPetBuff: {
+		DisplayName: Delivery Nekomata
+		Description: Thank you for using Komaniya Express!
+	}
+
+	DragonSkullBannerBuff: {
+		Description: Mods.Revelations.Buffs.DragonSkullBannerBuff.Description
+		DisplayName: Dragon Skull Banner Buff
+	}
+}
+
+NPCs: {
+	DragonSkull.DisplayName: Dragon Skull
+	ArchDemon.DisplayName: Arch Demon
+	ElectricEel.DisplayName: Electric Eel
+}
+
+Projectiles: {
+	SlimeShot.DisplayName: Slime Shot
+	DragonShot.DisplayName: Dragon Shot
+	Kirara.DisplayName: Kirara
+	ArchDemonSickle.DisplayName: Arch Demon Sickle
+	ArchDemonScytheProjectile.DisplayName: Homing Demon Scythe
+}
