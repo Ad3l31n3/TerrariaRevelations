@@ -1,4 +1,0 @@
-displayName = Revelations
-author = Ademeow
-Music = Content/Music/SnowNight.ogg
-version = 0.1
