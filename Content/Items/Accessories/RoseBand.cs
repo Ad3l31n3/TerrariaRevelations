@@ -16,13 +16,14 @@ namespace Revelations.Content.Items.Accessories
             Item.height = 28;
             Item.accessory = true;
             Item.value = Item.sellPrice(gold: 1);
-            Item.rare = ItemRarityID.LightRed;
+            Item.rare = ItemRarityID.Lime;
         }
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
             player.GetModPlayer<RoseBandPlayer>().RoseBandEquipped = true;
-            player.GetDamage(DamageClass.Generic) *= 1.5f;
+            player.GetDamage(DamageClass.Magic) *= 1.5f;
         }
     }
+
 }
