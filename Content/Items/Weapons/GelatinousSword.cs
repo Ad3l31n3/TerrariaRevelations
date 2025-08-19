@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Revelations.Content.Projectiles;
+using Revelations.Content.Projectiles.FriendlyProjectiles;
 using Revelations.Content.Globals;
 using Terraria.DataStructures;
 using Terraria.Audio; // Required for SoundEngine

@@ -4,7 +4,7 @@ using Terraria.Enums;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
-using Revelations.Content.Projectiles;
+using Revelations.Content.Projectiles.FriendlyProjectiles;
 
 namespace Revelations.Content.Items.Weapons
 {
