@@ -28,9 +28,14 @@ namespace Revelations.Content.Globals
                 npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<DeliveryBox>(), 100)); //1% chance drop
             }
             // Adds Rubber Gloves to base game drop rates
-            if (npc.type == 387|| npc.type == 389)
+            if (npc.type == NPCID.MartianTurret || npc.type == NPCID.GigaZapper)
             {
                 npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<RubberGloves>(), 50)); // 1 in 50 chance
+            }
+            if (npc.type == NPCID.Plantera && !Main.expertMode) // Classic only
+            {
+                // 1/10 drop in Classic only
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<RoseBand>(), 10));
             }
         }   
     }
