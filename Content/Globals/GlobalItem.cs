@@ -1,7 +1,9 @@
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
+using Terraria.GameContent.ItemDropRules;
 using Revelations.Content.Items.Weapons;
+using Revelations.Content.Items.Accessories;
 
 namespace Revelations.Content.Globals
 {
@@ -14,6 +16,18 @@ namespace Revelations.Content.Globals
                 // Example: Give immunity to burning (normally not part of Ankh Shield)
                 player.buffImmune[BuffID.Frozen] = true;
                 player.buffImmune[BuffID.Electrified] = true;
+            }
+        }
+    }
+    public class LootBagEditor : GlobalItem
+    {
+        public override void ModifyItemLoot(Item item, ItemLoot itemLoot)
+        {
+            // Check if this is Plantera’s bag
+            if (item.type == ItemID.PlanteraBossBag)
+            {
+                // Always drop your accessory
+                itemLoot.Add(ItemDropRule.Common(ModContent.ItemType<RoseBand>(), 10));
             }
         }
     }
