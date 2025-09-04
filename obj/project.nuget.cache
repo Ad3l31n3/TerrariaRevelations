@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0Itds9Hog70=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ben\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Revelations\\Revelations.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ben\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
