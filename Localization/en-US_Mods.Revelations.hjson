@@ -101,6 +101,31 @@ Items: {
 		DisplayName: Ade's Debug Accessory
 		Tooltip: I made this item so I thought it'd be funny to keep it in
 	}
+
+	CharismaticPhoto: {
+		DisplayName: Charismatic Photo
+		Tooltip: ""
+	}
+
+	PokerChip: {
+		Tooltip: ""
+		DisplayName: Poker Chip
+	}
+
+	Starwalker: {
+		Tooltip: ""
+		DisplayName: Starwalker
+	}
+
+	Misericorde: {
+		DisplayName: Misericorde
+		Tooltip: Ignores 6 defense
+	}
+
+	SimulacraSwords: {
+		DisplayName: Simulacra Swords
+		Tooltip: ""
+	}
 }
 
 Buffs: {
@@ -112,6 +137,11 @@ Buffs: {
 	DragonSkullBannerBuff: {
 		Description: Mods.Revelations.Buffs.DragonSkullBannerBuff.Description
 		DisplayName: Dragon Skull Banner Buff
+	}
+
+	StarwalkerPetBuff: {
+		Description: Mods.Revelations.Buffs.StarwalkerPetBuff.Description
+		DisplayName: Starwalker Pet Buff
 	}
 }
 
@@ -127,4 +157,8 @@ Projectiles: {
 	Kirara.DisplayName: Kirara
 	ArchDemonSickle.DisplayName: Arch Demon Sickle
 	ArchDemonScytheProjectile.DisplayName: Homing Demon Scythe
+	Starwalker.DisplayName: Starwalker
+	SimulacraSwordProjectile.DisplayName: Simulacra Sword Projectile
+	SimulacraSwordSummoner.DisplayName: Simulacra Sword Summoner
+	MisericordeProjectile.DisplayName: Misericorde Projectile
 }
