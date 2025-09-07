@@ -18,18 +18,18 @@ namespace Revelations.Content.Items.Weapons.Ranged
 
         public override void SetDefaults()
         {
-            Item.damage = 13;
+            Item.scale = 1.2f;
+            Item.damage = 8;
             Item.DamageType = DamageClass.Ranged;
             Item.knockBack = 1f;
             Item.noMelee = true;
-            Item.useTime = 20;
-            Item.useAnimation = 20;
+            Item.useTime = Item.useAnimation = 20;
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.autoReuse = true;
             Item.shoot = ProjectileID.PurificationPowder;
             Item.shootSpeed = 10f;
             Item.useAmmo = AmmoID.Bullet;
-
+            Item.rare = ItemRarityID.Blue;
         }
 
         public override bool? UseItem(Player player)
@@ -38,7 +38,8 @@ namespace Revelations.Content.Items.Weapons.Ranged
             {
                 Item.useStyle = ItemUseStyleID.Swing;
                 Item.DamageType = DamageClass.Melee;
-                Item.knockBack = 5f;
+                Item.damage = 13;
+                Item.knockBack = 4f;
                 Item.noMelee = false;
                 Item.noUseGraphic = false;
             }
@@ -58,8 +59,9 @@ namespace Revelations.Content.Items.Weapons.Ranged
 
         public override void HoldItem(Player player)
         {
-            // Item.DamageType = DamageClass.Ranged;
-            // Item.knockBack = 1f;
+            Item.DamageType = DamageClass.Ranged;
+            Item.damage = 13;
+            Item.knockBack = 1f;
         }
 
         /*public override void UseAnimation(Player player)
