@@ -126,6 +126,11 @@ Items: {
 		DisplayName: Simulacra Swords
 		Tooltip: ""
 	}
+
+	FlintlockHatchet: {
+		DisplayName: Flintlock Hatchet
+		Tooltip: ""
+	}
 }
 
 Buffs: {
@@ -161,4 +166,5 @@ Projectiles: {
 	SimulacraSwordProjectile.DisplayName: Simulacra Sword Projectile
 	SimulacraSwordSummoner.DisplayName: Simulacra Sword Summoner
 	MisericordeProjectile.DisplayName: Misericorde Projectile
+	FlintlockHatchetShoot.DisplayName: Flintlock Hatchet Shoot
 }

@@ -13,8 +13,9 @@ namespace Revelations.Content.Items.Weapons.Melee
     {
         public override void SetDefaults()
         {
-            Item.damage = 15;
+            Item.damage = 8;
             Item.ArmorPenetration = 6;
+            Item.crit = 20;
             Item.DamageType = DamageClass.Melee;
             Item.noMelee = true;
             Item.noUseGraphic = true;
